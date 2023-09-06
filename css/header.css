@@ -1,0 +1,12 @@
+.header__description {
+    color: var(--accent-color);
+}
+
+.header__description:hover {
+    color: var(--background-color);
+}
+
+.header__image {
+    width: 120px;
+    border-radius: 50%;
+}

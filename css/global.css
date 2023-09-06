@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background-color: #212121;
+    --title-color: white;
+    --accent-color: #edc100;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1 {
+    background-color: var(--background-color);
+    color: var(--title-color);
+    font-size: 120px;
+    margin: 10px;
+    font-family: 'Acme', sans-serif;
+}
